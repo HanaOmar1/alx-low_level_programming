@@ -5,7 +5,7 @@
  *  Description: using sizeof to print the size of various variables
  *
  *  Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {

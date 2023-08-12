@@ -1,4 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
+
+/**
+ *  main - Entry point
+ *
+ *  Description: print the alphabet letters in lower and upper case
+ *
+ *  Return: Always 0 (Success)
+*/
 
 int main(void)
 {

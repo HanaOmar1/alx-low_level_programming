@@ -9,10 +9,9 @@
 
 int main(void)
 {
-int digit;
+int digit=48;
 
-for (digit = 48; digit <= 102; digit++)
-{
+while (digit <= 102)
 putchar(digit);
 if (digit == 57)
 {

@@ -6,7 +6,7 @@
 void times_table(void)
 {
 int x, table, prod;
-for (table = ; table <= 9 ; table++)
+for (table = 0; table <= 9; table++)
 {
 _putchar(48)
 for (x = 0; x <= 9; x++)

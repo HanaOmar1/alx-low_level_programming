@@ -5,15 +5,15 @@
 
 void times_table(void)
 {
-int x, table, prod;
-for (table = 0; table <= 9; table++)
+int num, mult, prod;
+for (num = 0; num <= 9 ; num++)
 {
-_putchar(48)
-for (x = 0; x <= 9; x++)
+_putchar(48);
+for (mult = 0; mult <= 9; mult++)
 {
 _putchar(',');
 _putchar(' ');
-prod = table * x;
+prod = mult * num;
 
 if (prod <= 9)
 {
@@ -25,9 +25,8 @@ _putchar((prod / 10) + 48);
 }
 
 _putchar((prod % 10) + 48);
-_putchar('\n');
 }
-
+_putchar('\n');
 }
 
 }

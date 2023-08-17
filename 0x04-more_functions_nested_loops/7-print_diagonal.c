@@ -15,7 +15,7 @@ else
 {
 for (i = 0; i < n; i++)
 {
-for (s = 0; s < n; s++)
+for (j = 0; j < n; j++)
 {
 if (j == i)
 _putchar('\\');

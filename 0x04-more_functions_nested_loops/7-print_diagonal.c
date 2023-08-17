@@ -16,9 +16,7 @@ else
 for (pos = 1; pos <= n; pos++)
 {
 for (s = 1; s <= pos; s++)
-{
-_putchar(' ');
-}
+_putchar('  ');
 _putchar(92);
 _putchar('\n');
 }

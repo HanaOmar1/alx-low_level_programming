@@ -17,7 +17,7 @@ cnt++;
 int i;
 for (i = cnt - 1; i <= 0 ; i--)
 {
-_putchar(*s + 0)
+_putchar(*s + 0);
 }
 
 _putchar('\n');

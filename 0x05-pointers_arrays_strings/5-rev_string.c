@@ -4,25 +4,23 @@
 *
 * @s : string input parameter
 *
-*Return: reversed string
+*Return: nothing
 */
 
 void rev_string(char *s)
 {
-int len, len1, i;
-char tmp[100];
-len = 0;
-len1 = 0;
-while (s[len] != '\0')
+int i, l;
+char temp;
+l = 0;
+while (s[l] != '\0')
 {
-len++;
+l++;
 }
-len1 = len - 1;
-for (i = 0; i < len / 2; i++)
+for (i = 0; i < l / 2; i++)
 {
-tmp[i] = s[i];
-s[i] = s[len1];
-s[len1--] = tmp;
+tmp = s[i];
+s[i] = s[l - 1 - i];
+s[l - 1 - i] = tmp;
 
 }
 }

@@ -40,7 +40,7 @@ return (n);
  * main- a program that multiplies two numbers
  * @argc: int
  * @argv: list
- * Return: 0
+ * Return: 0 (success), 1 (Error)
  */
 int main(int argc, char const *argv[])
 {

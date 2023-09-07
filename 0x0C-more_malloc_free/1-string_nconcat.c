@@ -26,6 +26,6 @@ else
 x[z] = s2[z - i]
 }
 }
-s[z] = '\0';
-return (s);
+x[z] = '\0';
+return (x);
 }

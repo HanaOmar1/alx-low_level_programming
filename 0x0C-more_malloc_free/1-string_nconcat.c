@@ -13,17 +13,26 @@ if (s1 == NULL)
 return (NULL);
 if (s2 == NULL)
 return (NULL);
-int i = 0, z = 0;
-char *x = malloc(sizeof(s1) + n + 1);
+int i = 0, z = 0, j = 0;
 for (; s1[i] != '\0'; i++)
 ;
+for (; s2[j] != '\0'; j++)
+;
+if (n < j)
+char *x = malloc(size of(char) * (i + n + 1));
+else
+char *x = malloc(size of(char) * (i + j + 1));
+if (!x)
+return (NULL);
+if (n > j)
+n = j;
 for (; z < i + n; z++)
 {
 if (z < i)
 x[z] = s1[z];
 else
 {
-x[z] = s2[z - i]
+x[z] = s2[z - i];
 }
 }
 x[z] = '\0';

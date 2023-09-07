@@ -13,7 +13,7 @@ if (s1 == NULL)
 return (NULL);
 if (s2 == NULL)
 return (NULL);
-int i = 0, z = 0, j = 0;
+unsigned int i = 0, z = 0, j = 0;
 for (; s1[i] != '\0'; i++)
 ;
 for (; s2[j] != '\0'; j++)

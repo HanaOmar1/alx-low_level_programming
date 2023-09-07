@@ -6,7 +6,7 @@
 * Return: pointer to array initialized or NULL
 */
 void *malloc_checked(unsigned int b)
-{	
+{
 	void *x = malloc(b);
 
 	if (x == 0)

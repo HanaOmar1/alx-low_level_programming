@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *_memset- fills memory with a constant byte
+ * *memset- fills memory with a constant byte
  * @s: arguments
  * @b: arguments
  * @n: arguments
@@ -13,7 +13,9 @@ char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
 for (i = 0; i < n; i++)
+{
 s[i] = b;
+}
 return (s);
 }
 
@@ -32,6 +34,6 @@ return (NULL);
 m = malloc(size * nmemb);
 if (m == NULL)
 return (NULL);
-*_memset(m, 0, size * nmemb);
+*memset(m, 0, nmemb * size);
 return (m);
 }

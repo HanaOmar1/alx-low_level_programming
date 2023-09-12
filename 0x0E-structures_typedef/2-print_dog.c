@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_dog- initializes a dog
+* print_dog- prints a dog
 * @d: the dog to print
 *
 * Return: void.
